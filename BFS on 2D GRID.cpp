@@ -6,6 +6,8 @@ char st[100][100];
 lli dx[]={1,-1,0, 0, 1,1,-1,-1};
 lli dy[]={0, 0,1,-1,-1,1,1,-1};
 
+//directional array  Right-LEft-UP-Down-(right down crner)-(right up corner)-(left up crner)-(left down corner)
+
 void bfs(int fx,int fy) /// starting position
 {
     lli i,v,x,y,md=0;
